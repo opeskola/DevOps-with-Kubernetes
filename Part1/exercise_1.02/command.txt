@@ -1,0 +1,4 @@
+$ docker tag ex1.02 opeskola/ex1.02
+$ docker push opeskola/ex1.02
+$ kubectl create deployment ex1.02 --image=opeskola/ex1.02
+
