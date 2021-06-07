@@ -1,0 +1,6 @@
+$ docker tag ex1.02 opeskola/kubernetes-course-todoapp
+$ docker push opeskola/kubernetes-course-todoapp
+$ docker build -t opeskola/kubernetes-course-todoapp:1000 .
+$ docker push opeskola/kubernetes-course-todoapp:1000
+$ kubectl apply -f manifests/deployment.yaml
+$ kubectl logs -f todoapp-dep-fd84bcfcb-m7bwc
