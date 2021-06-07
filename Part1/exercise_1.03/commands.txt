@@ -1,0 +1,6 @@
+$ docker tag ex1.01 opeskola/kubernetes-course-main
+$ docker push opeskola/kubernetes-course-main
+$ docker build -t opeskola/kubernetes-course-main:1000 .
+$ docker push opeskola/kubernetes-course-main:1000
+$ kubectl apply -f manifests/deployment.yaml
+$ kubectl logs -f mainapp-dep-867ff5c598-9nvs4

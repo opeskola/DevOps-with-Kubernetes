@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: mainapp
-          image: opeskola/ex1.01:latest
+          image: opeskola/kubernetes-course-main:1000
