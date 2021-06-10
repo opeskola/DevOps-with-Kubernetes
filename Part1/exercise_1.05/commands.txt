@@ -1,0 +1,2 @@
+$ kubectl get pods
+$ kubectl port-forward todoapp-dep-fd84bcfcb-m7bwc 3004:3001
